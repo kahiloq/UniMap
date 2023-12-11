@@ -1,0 +1,172 @@
+body{
+   
+    background-color: aliceblue;
+   
+}
+/*///////////////////////////////////////////////////////////////*/
+.menu{
+    background-color: rgb(178, 218, 249);
+    top: 0;
+    left: 0;
+   
+    color: #fff; /* Cambia esto al color de texto deseado */
+    padding: 10px; /* Añade espacio alrededor del contenido del menú */
+    width: 100%;
+    height: 125px;
+   
+    z-index: 100;
+
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+#navbar ul li a:hover {
+	color: #d19069;
+}
+
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+   }
+   #navbar .logo {
+	float: left;
+	padding-top: 16px;
+	font-size: 25px;
+}
+
+/*///////////////////////////////////////////////////////////////*/
+
+section{
+    display:flex;
+    width: 1480px;
+    height: 600px;
+   
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition: .5s ease;
+
+}
+
+section img:hover{
+    width: 300px;
+
+}
+/*///////////////////////////////////////////////////*/
+
+.grid-layout{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 10% auto auto auto 10%;
+    grid-template-rows: auto auto auto;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    
+    
+}
+.cuerpo5{
+   
+    grid-column: 1/6;
+
+
+}
+.cuerpo3{
+    
+    grid-column: 2/5;
+
+
+}
+.cuerpo2p1{
+    
+    grid-column: 2/4;
+
+}
+.cuerpo2p2{
+    
+    grid-column: 3/5;
+
+}
+.cuerpo1p1{
+    
+    grid-column: 2/3;
+
+}
+.cuerpo1p1 img{
+    
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+    object-fit: cover;
+    grid-row: 1/4;
+    grid-column: 2/3;
+
+}
+.cuerpo1p2{
+    
+    grid-column: 3/4;
+
+}
+.cuerpo1p3{
+    
+    grid-column: 4/5;
+    
+
+}
+
+.ads1{
+    
+ grid-row: 1/4;
+ justify-content: center;
+}
+.ads1 img{
+    margin-bottom: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.ads2{
+   
+    grid-row: 1/4;
+    grid-column: 5/6;
+    justify-content: center;
+}
+.ads2 img{
+    margin-bottom: 200px;
+    width: 100px;
+    height: 100px;
+}
+h1{
+    font-size: 100px;
+}
+
+/*///////////////////////////////////*/
+
+.btn{
+
+    background-color: rgb(178, 218, 249);
+
+}
